@@ -10,36 +10,42 @@
     <title>Vertigo</title>
 </head>
 <body>
-    <header>
-        <img src="./logo.svg" alt="Logo">
-       </header>
+    <div class="conteudo">
+   <header>
+    <img src="./logo.svg" alt="Logo">
+   </header>
+   <main>
+     <section class="descricao">
+        <h1>Acesse a Plataforma</h1>
+        <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+     </section>
 
-       <main>
-        <section class="descricao">
-           <h1>Acesse a Plataforma</h1>
-           <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
-        </section>
+     <section class="login">
+        <form action="">
+            <div class="input-box">
+                <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" id="email">
+            </div>
 
-        <section class="login">
-            <form action="">
-                <div class="input-box">
-                    <label for="email">E-mail</label>
-                <input type="email" placeholder="Digite seu e-mail" id="email">
+            <div class="input-box">
+                <div><label for="senha">Senha</label>
+                    <a href="">Esqueceu a senha?</a>
                 </div>
-                <div class="input-box">
-                    <div>
-                        <label for="senha">Senha</label>
-                        <a href="">Esqueceu a senha?</a>
-                    </div>
-                <input type="password" placeholder="Digite sua senha" id="senha">
-                </div>
-                <button>Entrar</button>
-            </form>
+            <input type="password" placeholder="Digite sua senha" id="senha">
+            </div>
+            <button>Entrar</button>
+        </form>
 
-            <p>
-            Ainda não tem uma conta? <a href="">Inscreva-se</a>
+        <p>
+        Ainda não tem uma conta? <a href="">Inscreva-se</a>
         </p>
      </section>
    </main>
+</div>
+
+ <div class="bg-desktop">
+    <img src="./bg-desktop.png" alt="background desktop">
+ </div>
+
 </body>
 </html>
