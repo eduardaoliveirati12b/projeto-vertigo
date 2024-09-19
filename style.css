@@ -46,7 +46,7 @@ main {
     color: var(--gray-600);
  }
 
- .input-box {
+.input-box {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -60,13 +60,13 @@ main {
   }
   
 
- .login label {
+.login label {
     font-size: 0.875rem;
     color: var(--gray-800);
     font-weight: 600;
   }
 
-  .login input {
+.login input {
     padding: 1rem 0.75rem;
     border: 1px solid var(--gray-200);
     border-radius: 0.25rem;
@@ -82,7 +82,7 @@ main {
   outline: 1px solid var(--purple);
 }
 
-  .login a {
+.login a {
     color: var(--purple);
     text-decoration: none;
     font-size: 0.875rem;
@@ -93,7 +93,7 @@ main {
     text-decoration: underline;
   }
 
-  .login button {
+.login button {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding-block: 1rem;
@@ -101,7 +101,6 @@ main {
     background: var(--purple);
     border: none;
     border-radius: 0.25rem;
-
     font-size: 1rem;
     font-weight: 700;
     color: var(--white);
@@ -114,4 +113,22 @@ main {
 .login > p a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media(min-width: 1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+    }
+
+header img {
+        width: 10rem;
+      }
+
+main {
+    margin-inline: 7rem;
+    max-width: 24rem;
+    padding: 0;
+  }
+
 }
